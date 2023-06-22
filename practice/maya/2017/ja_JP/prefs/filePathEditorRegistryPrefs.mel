@@ -1,0 +1,9 @@
+//Maya Preference 2017 (Release 1)
+//
+//
+filePathEditor -registerType "MASH_Audio.filename" -typeLabel "MASH Audio" ;
+filePathEditor -registerType "audio.filename" -typeLabel "オーディオ" ;
+filePathEditor -registerType "file" -typeLabel "テクスチャ" ;
+filePathEditor -registerType "imagePlane.imageName" -typeLabel "イメージ プレーン" ;
+filePathEditor -registerType "reference" -typeLabel "リファレンス" ;
+filePathEditor -registerType "svgToPoly.svgFilepath" -typeLabel "SVG" ;

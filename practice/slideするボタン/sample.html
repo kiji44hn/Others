@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+.button-4{
+  width:140px;
+  height:50px;
+  border:2px solid #34495e;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+}
+.button-4 a{
+  font-family:arial;
+  font-size:16px;
+  color:#34495e;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.eff-4{
+  width:140px;
+  height:50px;
+  left:-140px;
+  background:#34495e;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button-4:hover .eff-4{
+  left:0;
+}
+.button-4:hover a{
+  color:#fff;
+}
+
+.slider-wrapper {
+  width: 600px;
+  padding: 5px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #CCC;
+}
+
+.slider {
+  width: 850px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slider > * {
+  -webkit-transform: translateZ(0px);
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none;
+  height: 0 !important;
+}
+
+.unit {
+  float: left;
+  width: 150px;
+  margin: 0 0 0 5px;
+  border: 1px solid #DDDDDD;
+  background: #EFEFEF;
+}
+
+.unit:first-child {
+  margin: 0;
+}
+
+.unit .img {
+  text-align: center;
+}
+
+</style>
+  </head>
+  <body>
+<div id="flickscroll">
+<ul>
+  <div class="button-4">
+  <div class="eff-4"></div>
+  <a href="#"> Touch me </a>
+  </div>
+</ul>
+</div><!--/#flickscroll-->
+
+<div id="flickthumb">
+<ul>
+  <div class="button-4">
+  <button class="eff-4"></button>
+  <a href="#"> Touch me </a>
+  </div>
+</ul>
+</div><!--/#flickthumb-->
+
+<div class="button-4">
+<div class="eff-4"></div>
+<a href="#"> Touch me </a>
+</div>
+
+<div class="slider-wrapper">
+  <div class="slider">
+    <div class="unit">
+      <p class="img"><img src="" alt="" /></p>
+      <p class="caption">キャプションです。</p>
+    </div><!-- /.unit -->
+    <div class="unit">
+      <p class="img"><img src="" alt="" /></p>
+      <p class="caption">キャプションです。</p>
+    </div><!-- /.unit -->
+    <div class="unit">
+      <p class="img"><img src="" alt="" /></p>
+      <p class="caption">キャプションです。</p>
+    </div><!-- /.unit -->
+    <div class="unit">
+      <p class="img"><img src="" alt="" /></p>
+      <p class="caption">キャプションです。</p>
+    </div><!-- /.unit -->
+    <div class="unit">
+      <p class="img"><img src="" alt="" /></p>
+      <p class="caption">キャプションです。</p>
+    </div><!-- /.unit -->
+  </div><!-- /.slider -->
+</div><!-- /.slider-wrapper -->
+
+</body>
+</html>

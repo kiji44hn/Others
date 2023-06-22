@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8">
+<rss version=2.0>
+  <channel>
+    <title>to-R</title>
+    <link>http://blog.webcreativepark.net/</link>
+    <lastBuildDate>Fri, 09 Nov 2012 11:44:06 +0900</lastBuildDate>
+    <item>
+      <title>Compass でCSS Spriteする際にスプライト画像間マージンを
+             取る方法</title>
+      <pubDate>Fri, 09 Nov 2012 11:44:06 +0900</pubDate>
+      <link>http://blog.webcreativepark.net/2012/09-114406.html</link>
+      <description><![CDATA[Compassで（中略）少しおかしくなります。]]>
+      </description>
+    </item>
+    <item>
+      <title>jQuery1.8系のanimate()で一部のAndroid端末が落ちる件
+      </title>
+      <pubDate>Fri, 09 Nov 2012 11:26:17 +0900</pubDate>
+    </item>
+  </channel>
