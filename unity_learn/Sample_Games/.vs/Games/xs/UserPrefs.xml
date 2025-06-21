@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gimmicks/Password.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PickupObj.cs" Line="8" Column="24" />
+      <File FileName="Assets/Scripts/Item.cs" />
+      <File FileName="Assets/Scripts/ItemBox.cs" />
+      <File FileName="Assets/Scripts/Slot.cs" />
+      <File FileName="Assets/Gimmicks/SampleGimmick.cs" />
+      <File FileName="Assets/Scripts/ItemListEntity.cs" />
+      <File FileName="Assets/Scripts/ItemGenerator.cs" />
+      <File FileName="Assets/Scripts/SetObj.cs" />
+      <File FileName="Assets/Gimmicks/Password.cs" Line="15" Column="1" />
+      <File FileName="Assets/Gimmicks/PasswordButton.cs" Line="14" Column="31" />
+      <File FileName="Assets/Scripts/Zooms/ZoomPanel.cs" />
+      <File FileName="Assets/Scripts/Zooms/ItemRotation.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Games" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Gimmicks" expanded="True">
+                <Node name="Password.cs" selected="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Zooms" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="88b37549-9b2c-45ab-993c-216b2dbf8956" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
